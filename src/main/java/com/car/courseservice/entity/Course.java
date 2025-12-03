@@ -6,7 +6,6 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-import java.awt.geom.QuadCurve2D;
 
 @Data
 @Entity
