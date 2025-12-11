@@ -10,6 +10,17 @@ spring:
     username: postgres
     password: 12345678
     driver-class-name: org.postgresql.Driver
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ordukhanm20@gmail.com
+    password: jgpjxzpmzosgznry
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
 
   jpa:
     hibernate:
@@ -23,3 +34,14 @@ spring:
 application:
   config:
     student-url: http://localhost:8080/api
+
+logging:
+  file:
+    name: logs/course-service.log
+  level:
+      com:
+        car:
+          courseservice: INFO
+      org:
+        springframework:
+          web: DEBUG
