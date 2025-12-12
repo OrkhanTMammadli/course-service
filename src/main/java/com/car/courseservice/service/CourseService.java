@@ -7,6 +7,7 @@ import com.car.courseservice.entity.Course;
 import com.car.courseservice.repository.CourseRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -25,11 +26,10 @@ public class CourseService {
          emailService.sendEmail("orkhantmammadli@outlook.com","New Registry","Hello");
          return savedCourse;
     }
-    public FullCourseResponse getFullCoureseData(Long courseId){
 
+    public FullCourseResponse getFullCoureseData(Long courseId){
         Course course = courseRepository.findById(courseId).orElseThrow(() -> new RuntimeException("Course not found") );
         List<StudentDto> students = studentClient.getStudentByCourseID(course.getId());
-
         return new FullCourseResponse(course, students);
     }
 }
