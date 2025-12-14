@@ -9,7 +9,6 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 
 @Slf4j
@@ -19,6 +18,7 @@ public class CourseService {
     private final CourseRepository courseRepository;
     private final StudentClient studentClient;
     private final EmailService emailService;
+    private final static String COURSE_CACHE_NAME = "courseData";
 
     public Course createCourse(Course course){
          Course savedCourse = courseRepository.save(course);
@@ -27,6 +27,7 @@ public class CourseService {
          return savedCourse;
     }
 
+    @Cacheable(value = COURSE_CACHE_NAME, key = "#courseId")
     public FullCourseResponse getFullCoureseData(Long courseId){
         Course course = courseRepository.findById(courseId).orElseThrow(() -> new RuntimeException("Course not found") );
         List<StudentDto> students = studentClient.getStudentByCourseID(course.getId());

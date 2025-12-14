@@ -11,12 +11,8 @@ import java.util.List;
 
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
 public class FullCourseResponse {
     private Course course;
     private List<StudentDto> students;
-
-    public FullCourseResponse(Course course, List<StudentDto> students) {
-        this.course = course;
-        this.students = students;
-    }
 }
