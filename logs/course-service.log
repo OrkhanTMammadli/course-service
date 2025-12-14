@@ -1,22 +1,22 @@
-2025-12-12T15:10:35.233+04:00  INFO 19508 --- [course-service] [main] c.c.c.CourseServiceApplication           : Starting CourseServiceApplication using Java 17.0.17 with PID 19508 (C:\Users\Orxan\Downloads\SurveyBuilderApp-master\course-service\build\classes\java\main started by Orxan in C:\Users\Orxan\Downloads\SurveyBuilderApp-master\course-service)
-2025-12-12T15:10:35.247+04:00  INFO 19508 --- [course-service] [main] c.c.c.CourseServiceApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-12-12T15:10:36.597+04:00  INFO 19508 --- [course-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-12T15:10:36.667+04:00  INFO 19508 --- [course-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
-2025-12-12T15:10:36.907+04:00  INFO 19508 --- [course-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=79ed4d02-9518-32b4-8036-90f449d518b1
-2025-12-12T15:10:37.277+04:00  INFO 19508 --- [course-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2025-12-12T15:10:37.290+04:00  INFO 19508 --- [course-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-12-12T15:10:37.291+04:00  INFO 19508 --- [course-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
-2025-12-12T15:10:37.352+04:00  INFO 19508 --- [course-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-12-12T15:10:37.353+04:00  INFO 19508 --- [course-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1986 ms
-2025-12-12T15:10:37.551+04:00  INFO 19508 --- [course-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-12T15:10:37.618+04:00  INFO 19508 --- [course-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
-2025-12-12T15:10:37.650+04:00  INFO 19508 --- [course-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-12-12T15:10:38.275+04:00  INFO 19508 --- [course-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-12T15:10:38.363+04:00  INFO 19508 --- [course-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-12T15:10:38.613+04:00  INFO 19508 --- [course-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@40013051
-2025-12-12T15:10:38.615+04:00  INFO 19508 --- [course-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-12T15:10:38.665+04:00  WARN 19508 --- [course-service] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-12-12T15:10:38.686+04:00  INFO 19508 --- [course-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-12-15T01:29:38.445+04:00  INFO 7084 --- [course-service] [main] c.c.c.CourseServiceApplication           : Starting CourseServiceApplication using Java 17.0.17 with PID 7084 (C:\Users\Orxan\Downloads\SurveyBuilderApp-master\course-service\build\classes\java\main started by Orxan in C:\Users\Orxan\Downloads\SurveyBuilderApp-master\course-service)
+2025-12-15T01:29:38.456+04:00  INFO 7084 --- [course-service] [main] c.c.c.CourseServiceApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-12-15T01:29:39.874+04:00  INFO 7084 --- [course-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15T01:29:39.940+04:00  INFO 7084 --- [course-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interface.
+2025-12-15T01:29:40.163+04:00  INFO 7084 --- [course-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=79ed4d02-9518-32b4-8036-90f449d518b1
+2025-12-15T01:29:40.550+04:00  INFO 7084 --- [course-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-12-15T01:29:40.567+04:00  INFO 7084 --- [course-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-15T01:29:40.567+04:00  INFO 7084 --- [course-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-15T01:29:40.622+04:00  INFO 7084 --- [course-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-15T01:29:40.622+04:00  INFO 7084 --- [course-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2065 ms
+2025-12-15T01:29:40.802+04:00  INFO 7084 --- [course-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15T01:29:40.889+04:00  INFO 7084 --- [course-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
+2025-12-15T01:29:40.922+04:00  INFO 7084 --- [course-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-15T01:29:41.269+04:00  INFO 7084 --- [course-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15T01:29:41.325+04:00  INFO 7084 --- [course-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-15T01:29:41.531+04:00  INFO 7084 --- [course-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5cfa2ac5
+2025-12-15T01:29:41.537+04:00  INFO 7084 --- [course-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-15T01:29:41.604+04:00  WARN 7084 --- [course-service] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-15T01:29:41.624+04:00  INFO 7084 --- [course-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 18.0
@@ -24,123 +24,35 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-12-12T15:10:39.596+04:00  INFO 19508 --- [course-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-12T15:10:39.697+04:00  INFO 19508 --- [course-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-12T15:10:40.030+04:00  WARN 19508 --- [course-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-12T15:10:40.272+04:00 DEBUG 19508 --- [course-service] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
-2025-12-12T15:10:40.353+04:00 DEBUG 19508 --- [course-service] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2025-12-12T15:10:40.378+04:00 DEBUG 19508 --- [course-service] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2025-12-12T15:10:40.426+04:00 DEBUG 19508 --- [course-service] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2025-12-12T15:10:40.742+04:00  INFO 19508 --- [course-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2025-12-12T15:10:40.821+04:00  INFO 19508 --- [course-service] [main] c.c.c.CourseServiceApplication           : Started CourseServiceApplication in 7.302 seconds (process running for 9.068)
-2025-12-12T15:15:12.182+04:00  INFO 19508 --- [course-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-12T15:15:12.333+04:00  INFO 19508 --- [course-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-12-12T15:15:12.359+04:00  INFO 19508 --- [course-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-12T15:15:12.379+04:00  INFO 19508 --- [course-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-12-12T15:15:12.387+04:00  INFO 19508 --- [course-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-12-12T15:17:42.253+04:00  INFO 13172 --- [course-service] [main] c.c.c.CourseServiceApplication           : Starting CourseServiceApplication using Java 17.0.17 with PID 13172 (C:\Users\Orxan\Downloads\SurveyBuilderApp-master\course-service\build\classes\java\main started by Orxan in C:\Users\Orxan\Downloads\SurveyBuilderApp-master\course-service)
-2025-12-12T15:17:42.257+04:00  INFO 13172 --- [course-service] [main] c.c.c.CourseServiceApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-12-12T15:17:43.315+04:00  INFO 13172 --- [course-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-12T15:17:43.365+04:00  INFO 13172 --- [course-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interface.
-2025-12-12T15:17:43.545+04:00  INFO 13172 --- [course-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=79ed4d02-9518-32b4-8036-90f449d518b1
-2025-12-12T15:17:43.890+04:00  INFO 13172 --- [course-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2025-12-12T15:17:43.905+04:00  INFO 13172 --- [course-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-12-12T15:17:43.905+04:00  INFO 13172 --- [course-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
-2025-12-12T15:17:43.955+04:00  INFO 13172 --- [course-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-12-12T15:17:43.955+04:00  INFO 13172 --- [course-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1659 ms
-2025-12-12T15:17:44.112+04:00  INFO 13172 --- [course-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-12T15:17:44.203+04:00  INFO 13172 --- [course-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
-2025-12-12T15:17:44.248+04:00  INFO 13172 --- [course-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-12-12T15:17:44.484+04:00  INFO 13172 --- [course-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-12T15:17:44.509+04:00  INFO 13172 --- [course-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-12T15:17:44.660+04:00  INFO 13172 --- [course-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@40013051
-2025-12-12T15:17:44.662+04:00  INFO 13172 --- [course-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-12T15:17:44.709+04:00  WARN 13172 --- [course-service] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-12-12T15:17:44.738+04:00  INFO 13172 --- [course-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 18.0
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-12-12T15:17:45.573+04:00  INFO 13172 --- [course-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-12T15:17:45.633+04:00  INFO 13172 --- [course-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-12T15:17:45.934+04:00  WARN 13172 --- [course-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-12T15:17:46.298+04:00 DEBUG 13172 --- [course-service] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
-2025-12-12T15:17:46.397+04:00 DEBUG 13172 --- [course-service] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2025-12-12T15:17:46.421+04:00 DEBUG 13172 --- [course-service] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2025-12-12T15:17:46.457+04:00 DEBUG 13172 --- [course-service] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2025-12-12T15:17:46.761+04:00  INFO 13172 --- [course-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2025-12-12T15:17:46.848+04:00  INFO 13172 --- [course-service] [main] c.c.c.CourseServiceApplication           : Started CourseServiceApplication in 5.458 seconds (process running for 6.378)
-2025-12-12T15:18:06.088+04:00  INFO 13172 --- [course-service] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-12-12T15:18:06.089+04:00  INFO 13172 --- [course-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-12-12T15:18:06.089+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
-2025-12-12T15:18:06.090+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
-2025-12-12T15:18:06.090+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
-2025-12-12T15:18:06.091+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@329a27ae
-2025-12-12T15:18:06.092+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5cdafb4d
-2025-12-12T15:18:06.092+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2025-12-12T15:18:06.092+04:00  INFO 13172 --- [course-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2025-12-12T15:18:06.104+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.html", parameters={}
-2025-12-12T15:18:06.112+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
-2025-12-12T15:18:06.200+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-12-12T15:18:06.220+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui.css", parameters={}
-2025-12-12T15:18:06.221+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.css", parameters={}
-2025-12-12T15:18:06.222+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
-2025-12-12T15:18:06.223+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
-2025-12-12T15:18:06.227+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui-bundle.js", parameters={}
-2025-12-12T15:18:06.229+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-12-12T15:18:06.230+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
-2025-12-12T15:18:06.230+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui-standalone-preset.js", parameters={}
-2025-12-12T15:18:06.230+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-initializer.js", parameters={}
-2025-12-12T15:18:06.231+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
-2025-12-12T15:18:06.231+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
-2025-12-12T15:18:06.232+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-12-12T15:18:06.250+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-12-12T15:18:06.276+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-12-12T15:18:06.325+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-12-12T15:18:06.434+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/favicon-16x16.png", parameters={}
-2025-12-12T15:18:06.436+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
-2025-12-12T15:18:06.441+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-12-12T15:18:06.452+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs/swagger-config", parameters={}
-2025-12-12T15:18:06.455+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
-2025-12-12T15:18:06.478+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
-2025-12-12T15:18:06.506+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8081/swagger-ui/oauth2-re (truncated)...]
-2025-12-12T15:18:06.514+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-12-12T15:18:06.523+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs", parameters={}
-2025-12-12T15:18:06.525+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
-2025-12-12T15:18:06.931+04:00  INFO 13172 --- [course-service] [http-nio-8081-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 386 ms
-2025-12-12T15:18:06.946+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
-2025-12-12T15:18:06.946+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 49, 46, 48, 34, 44, 34, 105, 110, 10 (truncated)...]
-2025-12-12T15:18:06.947+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-12-12T15:18:27.384+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/course/1", parameters={}
-2025-12-12T15:18:27.407+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.car.courseservice.controller.CourseController#getFullCourseData(Long)
-2025-12-12T15:18:29.687+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-2] o.s.w.c.HttpMessageConverterExtractor    : Reading to [java.util.List<com.car.courseservice.dto.StudentDto>]
-2025-12-12T15:18:29.744+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
-2025-12-12T15:18:29.749+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [FullCourseResponse(course=Course(id=1, title=Java Backend, price=2000.0), students=[StudentDto(id=1, (truncated)...]
-2025-12-12T15:18:29.775+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-12-12T15:18:52.472+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/course/2", parameters={}
-2025-12-12T15:18:52.475+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.car.courseservice.controller.CourseController#getFullCourseData(Long)
-2025-12-12T15:18:52.535+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-5] o.s.w.c.HttpMessageConverterExtractor    : Reading to [java.util.List<com.car.courseservice.dto.StudentDto>]
-2025-12-12T15:18:52.541+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
-2025-12-12T15:18:52.542+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [FullCourseResponse(course=Course(id=2, title=UX/UI Design, price=1400.0), students=[StudentDto(id=2, (truncated)...]
-2025-12-12T15:18:52.547+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-12-12T15:18:58.125+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/course/3", parameters={}
-2025-12-12T15:18:58.127+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.car.courseservice.controller.CourseController#getFullCourseData(Long)
-2025-12-12T15:18:58.149+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-4] o.s.w.c.HttpMessageConverterExtractor    : Reading to [java.util.List<com.car.courseservice.dto.StudentDto>]
-2025-12-12T15:18:58.150+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
-2025-12-12T15:18:58.151+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [FullCourseResponse(course=Course(id=3, title=Python, price=2000.0), students=[])]
-2025-12-12T15:18:58.155+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-12-12T15:19:03.224+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/course/4", parameters={}
-2025-12-12T15:19:03.231+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.car.courseservice.controller.CourseController#getFullCourseData(Long)
-2025-12-12T15:19:03.271+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-6] o.s.w.c.HttpMessageConverterExtractor    : Reading to [java.util.List<com.car.courseservice.dto.StudentDto>]
-2025-12-12T15:19:03.292+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
-2025-12-12T15:19:03.295+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [FullCourseResponse(course=Course(id=4, title=Python AI, price=3000.0), students=[])]
-2025-12-12T15:19:03.298+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-12-12T15:19:08.559+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/course/5", parameters={}
-2025-12-12T15:19:08.562+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.car.courseservice.controller.CourseController#getFullCourseData(Long)
-2025-12-12T15:19:08.604+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-10] o.s.w.c.HttpMessageConverterExtractor    : Reading to [java.util.List<com.car.courseservice.dto.StudentDto>]
-2025-12-12T15:19:08.607+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
-2025-12-12T15:19:08.609+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [FullCourseResponse(course=Course(id=5, title=C#, price=1000.0), students=[StudentDto(id=5, name= Ana (truncated)...]
-2025-12-12T15:19:08.617+04:00 DEBUG 13172 --- [course-service] [http-nio-8081-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-15T01:29:43.160+04:00  INFO 7084 --- [course-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15T01:29:43.256+04:00  INFO 7084 --- [course-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15T01:29:43.671+04:00  WARN 7084 --- [course-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15T01:29:43.978+04:00 DEBUG 7084 --- [course-service] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2025-12-15T01:29:44.049+04:00 DEBUG 7084 --- [course-service] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-12-15T01:29:44.073+04:00 DEBUG 7084 --- [course-service] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-12-15T01:29:44.116+04:00 DEBUG 7084 --- [course-service] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-12-15T01:29:44.398+04:00  INFO 7084 --- [course-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-12-15T01:29:44.482+04:00  INFO 7084 --- [course-service] [main] c.c.c.CourseServiceApplication           : Started CourseServiceApplication in 7.475 seconds (process running for 9.088)
+2025-12-15T01:30:27.494+04:00  INFO 7084 --- [course-service] [http-nio-8081-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-15T01:30:27.494+04:00  INFO 7084 --- [course-service] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-15T01:30:27.495+04:00 DEBUG 7084 --- [course-service] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-12-15T01:30:27.495+04:00 DEBUG 7084 --- [course-service] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-12-15T01:30:27.497+04:00 DEBUG 7084 --- [course-service] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-12-15T01:30:27.499+04:00 DEBUG 7084 --- [course-service] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@80081d7
+2025-12-15T01:30:27.499+04:00 DEBUG 7084 --- [course-service] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@79e33802
+2025-12-15T01:30:27.500+04:00 DEBUG 7084 --- [course-service] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-12-15T01:30:27.500+04:00  INFO 7084 --- [course-service] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2025-12-15T01:30:27.519+04:00 DEBUG 7084 --- [course-service] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/course/1", parameters={}
+2025-12-15T01:30:27.547+04:00 DEBUG 7084 --- [course-service] [http-nio-8081-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.car.courseservice.controller.CourseController#getFullCourseData(Long)
+2025-12-15T01:30:28.454+04:00 DEBUG 7084 --- [course-service] [http-nio-8081-exec-3] o.s.w.c.HttpMessageConverterExtractor    : Reading to [java.util.List<com.car.courseservice.dto.StudentDto>]
+2025-12-15T01:30:28.637+04:00 DEBUG 7084 --- [course-service] [http-nio-8081-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-12-15T01:30:28.641+04:00 DEBUG 7084 --- [course-service] [http-nio-8081-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [FullCourseResponse(course=Course(id=1, title=Java Backend, price=2000.0), students=[StudentDto(id=1, (truncated)...]
+2025-12-15T01:30:28.673+04:00 DEBUG 7084 --- [course-service] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-15T01:30:48.383+04:00 DEBUG 7084 --- [course-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/api/course/create", parameters={}
+2025-12-15T01:30:48.384+04:00 DEBUG 7084 --- [course-service] [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.car.courseservice.controller.CourseController#createCourse(Course)
+2025-12-15T01:30:48.390+04:00 DEBUG 7084 --- [course-service] [http-nio-8081-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Course(id=null, title=MS office online, price=1000.0)]
+2025-12-15T01:30:48.492+04:00  INFO 7084 --- [course-service] [http-nio-8081-exec-2] c.c.courseservice.service.CourseService  : Success
+2025-12-15T01:30:53.011+04:00  INFO 7084 --- [course-service] [http-nio-8081-exec-2] c.c.courseservice.service.EmailService   : Email sent successfully
+2025-12-15T01:30:53.023+04:00 DEBUG 7084 --- [course-service] [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-12-15T01:30:53.024+04:00 DEBUG 7084 --- [course-service] [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Course(id=7, title=MS office online, price=1000.0)]
+2025-12-15T01:30:53.026+04:00 DEBUG 7084 --- [course-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
