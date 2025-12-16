@@ -14,9 +14,8 @@ public class Swagger {
 
 public OpenAPI customOpenAPI() {
 
-    return new OpenAPI().info(new Info().title("Course").version("1.0.0")
+    return new OpenAPI().info(new Info().title("Course with Security").version("1.0.0")
 
             .contact(new Contact().name("Orkhan M.")));}
-
 }
 
